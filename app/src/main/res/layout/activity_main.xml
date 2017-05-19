@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.org.controllerrumblexbox360.MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:checked="false"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:text="Rumble / Vibration"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:text="Rumble / Vibration" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toggleButton_Enabled">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Left Motor:"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar_LeftMotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="65535" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Right Motor:"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar_RightMotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="65535" />
+
+        <TextView
+            android:id="@+id/textView_LOG"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="TextView"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

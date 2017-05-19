@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Users\ipetrash\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_792f49b6e7ef4d1c80befe559304ed0e8609b878.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ipetrash\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_31dde3c2a381106f5dfb1e8e16166c547d3467ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ipetrash\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\okio-1.11.0_1a71591c5b6e091c04df9ea6478694babb8b7373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ipetrash\.android\build-cache\1ce498bef9d4ff273791f089ca26fd8ad4a2af2d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\classes_5ba3ade8f8c5807aac30395f60a78a1e47a26576.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ipetrash\.android\build-cache\0c86f27e84623e5d900371713e8ca8ceae379b35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\classes_402adc221e4434432f20c671d8e4eda2522cf6a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ipetrash\.android\build-cache\1ce498bef9d4ff273791f089ca26fd8ad4a2af2d\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\ipetrash\Documents\AndroidProjects\ControllerRumbleXBox360\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_3414ca7322e207887fbf0154ff73082ad9532097.jar" />
+    </item>
+
+</items>
