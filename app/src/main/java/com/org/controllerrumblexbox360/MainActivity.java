@@ -12,6 +12,8 @@ import android.widget.ToggleButton;
 
 import org.json.JSONObject;
 
+import java.util.concurrent.TimeUnit;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -96,10 +98,18 @@ public class MainActivity extends Activity {
                     .build();
 
             try {
-                OkHttpClient client = new OkHttpClient();
+                OkHttpClient client = new OkHttpClient.Builder().connectTimeout(3, TimeUnit.SECONDS).build();
                 return client.newCall(request).execute().body().toString();
 
-            } catch (Exception e) {
+            } catch (final Exception e) {
+                runOnUiThread(new Runnable(){
+                    @Override
+                    public void run(){
+                        ((TextView) findViewById(R.id.textView_LOG)).setText("error " + e);
+                        Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
                 Log.e("controllerrumblexbox360", e.toString(), e);
             }
 
